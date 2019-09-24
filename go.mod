@@ -2,12 +2,15 @@ module github.com/jcrossley3/k-s-o-minikube
 
 require (
 	github.com/NYTimes/gziphandler v1.0.1 // indirect
+	github.com/google/go-cmp v0.3.0 // indirect
 	github.com/operator-framework/operator-sdk v0.10.1-0.20190919225052-3a85983ecc72
 	github.com/spf13/pflag v1.0.3
 	k8s.io/api v0.0.0-20190612125737-db0771252981
 	k8s.io/apimachinery v0.0.0-20190612125636-6a5db36e93ad
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/kube-openapi v0.0.0-20190603182131-db7b694dc208 // indirect
+	knative.dev/pkg v0.0.0-20190924143619-6bc5bf74ccb2 // indirect
+	knative.dev/serving-operator v0.9.0
 	sigs.k8s.io/controller-runtime v0.1.12
 	sigs.k8s.io/controller-tools v0.1.10
 )

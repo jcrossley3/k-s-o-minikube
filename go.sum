@@ -151,7 +151,12 @@ github.com/golang/snappy v0.0.0-20180518054509-2e65f85255db/go.mod h1:/XxbfmMg8l
 github.com/google/btree v0.0.0-20180813153112-4030bb1f1f0c/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
 github.com/google/btree v1.0.0 h1:0udJVsspx3VBr5FwtLhQQtuAsVc79tTq0ocGIPAU6qo=
 github.com/google/btree v1.0.0/go.mod h1:lNA+9X1NB3Zf8V7Ke586lFgjr2dZNuvo3lPJSGZ5JPQ=
+github.com/google/go-cmp v0.2.0 h1:+dTQ8DZQJz0Mb/HjFlkptS1FeQ4cWSnN941F8aEG4SQ=
 github.com/google/go-cmp v0.2.0/go.mod h1:oXzfMopK8JAjlY9xF4vHSVASa0yLyX7SntLO5aqRK0M=
+github.com/google/go-cmp v0.3.0 h1:crn/baboCvb5fXaQ0IJ1SGTsTVrWpDsCWC8EGETZijY=
+github.com/google/go-cmp v0.3.0/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMywk6iLU=
+github.com/google/go-cmp v0.3.1 h1:Xye71clBPdm5HgqGwUkwhbynsUJZhDbS20FvLhQ2izg=
+github.com/google/go-cmp v0.3.1/go.mod h1:8QqcDgzrUqlUb/G2PQTWiueGozuR1884gddMywk6iLU=
 github.com/google/go-github v17.0.0+incompatible/go.mod h1:zLgOLi98H3fifZn+44m+umXrS52loVEgC2AApnigrVQ=
 github.com/google/go-querystring v1.0.0/go.mod h1:odCYkC5MyYFN7vkCjXpyrEuKhc/BUO6wN/zVPAxq5ck=
 github.com/google/gofuzz v0.0.0-20161122191042-44d81051d367/go.mod h1:HP5RmnzzSNb993RKQDq4+1A4ia9nllfqcQFTQJedwGI=
@@ -518,6 +523,10 @@ k8s.io/kube-state-metrics v1.6.0/go.mod h1:84+q9aGVQPzXYGgtvyhZr/fSI6BdLsbPWXn37
 k8s.io/kubernetes v1.11.7-beta.0.0.20181219023948-b875d52ea96d/go.mod h1:ocZa8+6APFNC2tX1DZASIbocyYT5jHzqFVsY5aoB7Jk=
 k8s.io/kubernetes v1.11.8-beta.0.0.20190124204751-3a10094374f2/go.mod h1:ocZa8+6APFNC2tX1DZASIbocyYT5jHzqFVsY5aoB7Jk=
 k8s.io/utils v0.0.0-20190308190857-21c4ce38f2a7/go.mod h1:8k8uAuAQ0rXslZKaEWd0c3oVhZz7sSzSiPnVZayjIX0=
+knative.dev/pkg v0.0.0-20190924143619-6bc5bf74ccb2 h1:cHF9Ra3reS8Jp+4DGkwoun2vWqEKKw/kc+x5lK9Onxk=
+knative.dev/pkg v0.0.0-20190924143619-6bc5bf74ccb2/go.mod h1:pgODObA1dTyhNoFxPZTTjNWfx6F0aKsKzn+vaT9XO/Q=
+knative.dev/serving-operator v0.9.0 h1:cRIA3/hPZW9MJpuejHpIm9Bd7PciUMxtRYo5zBxF1Rk=
+knative.dev/serving-operator v0.9.0/go.mod h1:VAY5SNWfKtlQOSq31Ih85aY+HnQcTCrrJ6XZOCC5s2w=
 sigs.k8s.io/controller-runtime v0.1.12 h1:ovDq28E64PeY1yR+6H7DthakIC09soiDCrKvfP2tPYo=
 sigs.k8s.io/controller-runtime v0.1.12/go.mod h1:HFAYoOh6XMV+jKF1UjFwrknPbowfyHEHHRdJMf2jMX8=
 sigs.k8s.io/controller-tools v0.1.11-0.20190411181648-9d55346c2bde/go.mod h1:ATWLRP3WGxuAN9HcT2LaKHReXIH+EZGzRuMHuxjXfhQ=
