@@ -11,15 +11,15 @@ spec:
     metadata:
       labels:
         name: knative-serving-minikube-operator
+        app: foo-admission-server
     spec:
       serviceAccountName: knative-serving-minikube-operator
       containers:
         - name: knative-serving-minikube-operator
-          # Replace this with the built image name
-          image: REPLACE_IMAGE
+          image: k-s-o-m:latest
           command:
           - knative-serving-minikube-operator
-          imagePullPolicy: Always
+          imagePullPolicy: IfNotPresent
           env:
             - name: WATCH_NAMESPACE
               valueFrom:
