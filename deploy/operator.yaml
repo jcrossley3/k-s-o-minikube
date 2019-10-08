@@ -11,15 +11,15 @@ spec:
     metadata:
       labels:
         name: knative-serving-minikube-operator
-        app: foo-admission-server
+        app: knativeserving-admission-server
     spec:
       serviceAccountName: knative-serving-minikube-operator
       containers:
         - name: knative-serving-minikube-operator
-          image: k-s-o-m:latest
+          image: docker.io/jcrossley3/knative-serving-minikube:dev
           command:
           - knative-serving-minikube-operator
-          imagePullPolicy: IfNotPresent
+          imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE
               valueFrom:
