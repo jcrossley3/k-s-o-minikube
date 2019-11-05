@@ -10,7 +10,7 @@ require (
 	k8s.io/client-go v11.0.0+incompatible
 	k8s.io/kube-openapi v0.0.0-20190603182131-db7b694dc208 // indirect
 	knative.dev/pkg v0.0.0-20190924143619-6bc5bf74ccb2 // indirect
-	knative.dev/serving-operator v0.9.0
+	knative.dev/serving-operator v0.0.0-20191104221620-518fc618d29c
 	sigs.k8s.io/controller-runtime v0.1.12
 	sigs.k8s.io/controller-tools v0.1.10
 )
